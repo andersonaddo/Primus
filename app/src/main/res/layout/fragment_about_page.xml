@@ -1,0 +1,100 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context="com.lumberjackapps.primus.AboutPage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:src="@drawable/logo"
+                android:layout_weight="1"
+                android:id="@+id/logo"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Logo partially designed by Freepik.com"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="end"
+                android:textSize="8sp"
+                android:fontFamily="sans-serif-light"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Primus - The Ultimate Prime Number Generator"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="end"
+                android:id="@+id/primus_name_text"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Version 1.3"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="end"
+                android:textSize="16sp"
+                android:fontFamily="sans-serif-light"/>
+
+
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Any suggestions or serious issues?\n Leave a review or contact us!"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="end"
+                android:textSize="24sp"
+                android:fontFamily="sans-serif-light"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="end">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Our Website"
+                    android:layout_gravity="end"
+                    android:id="@+id/website_button"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:onClick="goToWebsite"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Contact"
+                    android:layout_gravity="end"
+                    android:id="@+id/contact_button"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:onClick="contact"/>
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

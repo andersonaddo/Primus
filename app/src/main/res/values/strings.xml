@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Primus</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="Range">Find all Primes in a Range</string>
+    <string name="primefac">Find X\'s Prime factors</string>
+
+</resources>
