@@ -1,5 +1,5 @@
 # Primus
-Primus is a simple android application designed to find prime numbers - one at a time or thousands at one go.
+Primus is a simple android application designed to find prime numbers - one at a time or thousands at one go. There's also a PC version available on [GitHub](https://github.com/andersonaddo/Primus-for-PC).
 
 **Note**
-The .gitgnore file of this repository doesn't allow automatic .apk file commits. If you'd want any .apk file to be in this repository, add it to the /APKs filder through GitHub's web interface.
+The .gitgnore file of this repository doesn't allow .apk file commits.
